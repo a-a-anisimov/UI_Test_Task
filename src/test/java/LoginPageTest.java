@@ -28,7 +28,7 @@ public class LoginPageTest {
         return new Object[][]{
                 {"Zeadva@ya.ru","123456"}, //вход с валидными данными email и password
                 {"", "aaaaaaaa"}, //вход с пустым email и валидным password
-                {"333@mail.ru", ""}, //вход с валидным email и невалидным (пустым) password
+                {"333@mail.ru", ""}, //вход с валидным email и невалидным(пустым) password
                 {"Zeadvaaa@ya.ru","123456777"}, //вход с несуществующими данными email и password
                 {"aaa@ma.ru", ""}, //вход с валидным email и пустым password (при регистрации поле password не было заполнено) - БАГ!!!
         };

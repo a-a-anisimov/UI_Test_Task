@@ -3,7 +3,7 @@ package pom;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class SignUpPage {
+public class SignUpPage { //страница регистрации
     private final WebDriver driver;
     private final By selectEmailField = By.xpath(".//input[@placeholder='Email']");
     private final By selectNameField = By.xpath(".//input[@placeholder='Name']");

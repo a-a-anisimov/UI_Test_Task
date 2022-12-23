@@ -32,7 +32,7 @@ public class SignUpTest {
                 {faker.internet().emailAddress(), faker.name().firstName(),faker.internet().password(3,9)}, //регистарция с заполнением всех полей
                 {faker.internet().emailAddress(), "",faker.internet().password(3,9)}, //регистарция с заполнением обязательных полей email и password
                 {"", "",faker.internet().password(3,9)}, //регистарция с заполнением только поля password
-                {faker.internet().emailAddress(), "",""}, //регистарция с заполнением только поля email - БАГ, т.к. достаточно заполнения только одного поля Email
+                {faker.internet().emailAddress(), "",""}, //регистарция с заполнением только поля email - БАГ, т.к. достаточно заполнения только одного поля email
         };
     }
     @Before

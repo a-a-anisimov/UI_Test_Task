@@ -3,7 +3,7 @@ package pom;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
-public class HomePage {
+public class HomePage { //домашняя страница
     private final WebDriver driver;
     private final By hrefHome = By.xpath(".//a[@href='/']");
     private final By hrefLogin = By.xpath(".//a[@href='/login']");

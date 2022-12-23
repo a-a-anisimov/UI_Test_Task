@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class HomePageTest {
     private WebDriver driver;
 
-    @Before //главная страница до авторизации (можно еще проверить ссылки с выполненной авторизацией)
+    @Before //тестирование главной страницы до авторизации (можно еще проверить ссылки с выполненной авторизацией)
     public void setUp1() {
         //driver = new FirefoxDriver();
         ChromeOptions co = new ChromeOptions();
